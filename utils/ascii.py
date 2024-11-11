@@ -1,4 +1,4 @@
-class Encode:
+class AsciiEncode:
     def __init__(self, str):
         self.str = str
 
@@ -6,7 +6,7 @@ class Encode:
         print(type(self.str))
         return "".join([str(ord(letter)) for letter in self.str])
     
-class Decode:
+class AsciiDecode:
     def __init__(self, str):
         self.str = str
         self.i = 0
