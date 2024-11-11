@@ -1,1 +1,1 @@
-python3 fs/init.py
+python3 main.py

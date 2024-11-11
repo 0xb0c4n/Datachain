@@ -3,7 +3,8 @@ class Encode:
         self.str = str
 
     def run(self):
-        return "".join([ord(letter) for letter in self.str])
+        print(type(self.str))
+        return "".join([str(ord(letter)) for letter in self.str])
     
 class Decode:
     def __init__(self, str):
